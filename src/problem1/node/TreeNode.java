@@ -35,4 +35,10 @@ public class TreeNode {
         this.right = right;
     }
 
+    public TreeNode(int data){
+        this.data=data;
+        this.left=null;
+        this.right=null;
+    }
+
 }
