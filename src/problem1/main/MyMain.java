@@ -19,6 +19,11 @@ public class MyMain {
         binarySearchTree.insert(55);
         binarySearchTree.insert(60);
 
+        System.out.println("Left children of the binary search tree: ");
+        binarySearchTree.traverse();
+        System.out.println("No.of Parents not having their left child are:");
+        System.out.println(binarySearchTree.getCountRight());
+
 
     }
 }
