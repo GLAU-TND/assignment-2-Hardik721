@@ -7,7 +7,8 @@
 package problem3.myqueue;
 
 import problem3.myLinkedList.MyLinkedList;
-import problem3.student.Student;
+import problem5.student.Student;
+
 
 public class MyPriorityQueue {
     MyLinkedList linkedList = new MyLinkedList();
