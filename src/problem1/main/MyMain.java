@@ -13,4 +13,12 @@ public class MyMain {
     public static void main(String[] args) {
         MyBinarySearchTree binarySearchTree = new MyBinarySearchTree();
 
+        binarySearchTree.insert(15);
+        binarySearchTree.insert(10);
+        binarySearchTree.insert(50);
+        binarySearchTree.insert(55);
+        binarySearchTree.insert(60);
+
+
     }
+}
