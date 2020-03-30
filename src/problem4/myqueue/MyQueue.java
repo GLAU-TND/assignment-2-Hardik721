@@ -7,7 +7,7 @@
 package problem4.myqueue;
 // to create queue to store pre - order successor
 
-import problem3.myLinkedList.MyLinkedList;
+import problem4.linkedlist.MyLinkedList;
 
 public class MyQueue {
     MyLinkedList linkedList = new MyLinkedList();

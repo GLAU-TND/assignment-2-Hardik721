@@ -23,4 +23,6 @@ public class MyPriorityQueue {
         linkedList.display();
     }
 
+    public void enqueue(problem3.student.Student tanishq) {
+    }
 }

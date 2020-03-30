@@ -9,11 +9,11 @@ package problem5.student;
 public class Student {
 
     private String name;
-    private int backLog;
+    private int RollNo;
     private int appearingCount;
-    public Student(String name,int backLog,int appearingCount){
+    public Student(String name,int RollNo,int appearingCount){
         this.appearingCount=appearingCount;
-        this.backLog=backLog;
+        this.RollNo=RollNo;
         this.name = name;
     }
 
@@ -25,12 +25,12 @@ public class Student {
         this.name = name;
     }
 
-    public int getBackLog() {
-        return backLog;
+    public int getRollNo() {
+        return RollNo;
     }
 
     public void setBackLog(int backLog) {
-        this.backLog = backLog;
+        this.RollNo= RollNo;
     }
 
     public int getAppearingCount() {
@@ -42,7 +42,7 @@ public class Student {
     }
 
     public String toString(){
-        return getName()+" "+getBackLog()+" "+getAppearingCount();
+        return getName()+" "+getRollNo()+" "+getAppearingCount();
     }
 
 
